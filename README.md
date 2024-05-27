@@ -97,4 +97,4 @@ Iniciando o projeto
 <br>
 
 **Autor**
-[Wildemberg Renovato de Lima](https://www.linkedin.com/in/renovatt/)
+[Kaio Vinicius de Oliveira Garcia](https://github.com/kaiogarcia)
