@@ -1,25 +1,10 @@
-import Head from 'next/head'
-import { Poppins } from '@next/font/google'
+import Register from '@/views/register'
 import { GetServerSideProps } from 'next'
 import { parseCookies } from 'nookies'
-import Login from '@/views/login'
+import React from 'react'
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: '100'
-})
-
-export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>Login | Cute Pet</title>
-      </Head>
-      <main>
-        <Login />
-      </main>
-    </>
-  )
+export default function RegisterAccount() {
+  return <Register />
 }
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
