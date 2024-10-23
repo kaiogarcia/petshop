@@ -76,7 +76,7 @@
 
 Clone do Projeto
 
-    $ git clone https://github.com/renovatt/schedule-petshop-system.git
+    $ git clone https://github.com/kaiogarcia/petshop.git
 
 Instalando as dependências
 
